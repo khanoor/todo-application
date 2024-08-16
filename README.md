@@ -27,4 +27,9 @@ This is a Flutter application that uses Provider for state management, Firebase 
 
 6. **Run the app:**
    - ```flutter run```
+  
+# Usage
+- Authentication: Use Firebase Authentication to handle user sign-up, sign-in, and authentication state.
+- Firebase Firestore: Manage data storage and retrieval using Firebase Firestore.
+- Local Storage: Use sqflite for local database operations.
 
