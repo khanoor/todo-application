@@ -2,6 +2,7 @@
 
 This is a Flutter application that uses Provider for state management, Firebase for authentication and storage, and sqflite for local storage.
 
+![image alt](https://github.com/khanoor/todo-application/blob/16708c33c31fb261697861bdfb5e54f6b702275c/ss%201.jpg)
 ![image alt](https://github.com/khanoor/todo-application/blob/19074ed6f61cc56ee23ff4bc7acfc7488997be44/ss%202.jpg)
 
 # Features
