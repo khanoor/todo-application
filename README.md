@@ -1,16 +1,19 @@
 # todoapp
 
-A new Flutter project.
+This is a Flutter application that uses Provider for state management, Firebase for authentication and storage, and sqflite for local storage.
 
-## Getting Started
+Features
+⋅⋅Authentication: Users can sign up, log in, and manage their authentication state using Firebase Authentication.
+⋅⋅Data Storage: Store user data in Firebase Firestore and manage local data with sqflite.
+⋅⋅State Management: Utilize Provider for efficient state management throughout the app.
+⋅⋅Local Storage: Use sqflite to handle local storage for offline access and caching.
 
-This project is a starting point for a Flutter application.
+Installation
+1. Clone the repository:
+   git clone https://github.com/khanoor/todo-application.git
+2. Install dependencies:
+   flutter pub get
+3. Set up Firebase:
+   ⋅⋅Follow the instructions to set up Firebase for both iOS and Android as described in the [Firebase documentation]([url](https://firebase.google.com/docs/flutter/setup?platform=android)).
+   ⋅⋅Add your google-services.json (for Android) and GoogleService-Info.plist (for iOS) to the respective directories.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
