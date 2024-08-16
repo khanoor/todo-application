@@ -17,6 +17,6 @@ This is a Flutter application that uses Provider for state management, Firebase 
 2. Install dependencies:
    ```flutter pub get```
 3. Set up Firebase:
-   - Follow the instructions to set up Firebase for both iOS and Android as described in the [**Firebase documentation**]([url](https://firebase.google.com/docs/flutter/setup?platform=android)).
+   - Follow the instructions to set up Firebase for both iOS and Android as described in the [Firebase documentation](https://firebase.google.com/docs/flutter/setup?platform=android).
    - Add your google-services.json (for Android) and GoogleService-Info.plist (for iOS) to the respective directories.
 
