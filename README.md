@@ -5,11 +5,11 @@ This is a Flutter application that uses Provider for state management, Firebase 
 # Features
 - **Authentication:** Users can sign up, log in, and manage their authentication state using Firebase Authentication.
 
-**Data Storage:** Store user data in Firebase Firestore and manage local data with sqflite.
+- **Data Storage:** Store user data in Firebase Firestore and manage local data with sqflite.
 
-**State Management:** Utilize Provider for efficient state management throughout the app.
+- **State Management:** Utilize Provider for efficient state management throughout the app.
 
-**Local Storage**: Use sqflite to handle local storage for offline access and caching.
+- **Local Storage**: Use sqflite to handle local storage for offline access and caching.
 
 # Installation
 1. Clone the repository:
