@@ -33,3 +33,26 @@ This is a Flutter application that uses Provider for state management, Firebase 
 - Firebase Firestore: Manage data storage and retrieval using Firebase Firestore.
 - Local Storage: Use sqflite for local database operations.
 
+# Development
+To contribute or develop new features:
+
+1. **Create a new branch:**
+   ```git checkout -b feature/your-feature-name```
+   
+2. **Make changes and commit:**
+   ```git add .```
+   ```git commit -m "Add your commit message"```
+
+3. **Push to the branch:**
+   ```git push origin feature/your-feature-name```
+
+4. Create a Pull Request on GitHub.
+
+# Acknowledgements
+- Provider for state management.
+- Firebase for authentication and cloud storage.
+- sqflite for local storage.
+
+
+
+
