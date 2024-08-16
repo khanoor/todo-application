@@ -66,7 +66,7 @@ class ViewTaskScreen extends StatelessWidget {
               children: [
                 _buildTaskDetailRow(
                   icon: Icons.description,
-                  label: 'Description',
+                  label: 'Tasks',
                   content: description,
                 ),
                 const SizedBox(height: 16),

@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:todoapp/resources/app_pallete.dart';
+import 'package:todoapp/resources/utils.dart';
 import 'package:todoapp/view/taskScreen/view_task.dart';
 import 'package:todoapp/view/widgets/alert_box.dart';
 
@@ -17,8 +18,9 @@ class _AllTaskScreenState extends State<AllTaskScreen> {
   Future<void> _deleteTask(String taskId) async {
     try {
       await _firestore.collection('tasks').doc(taskId).delete();
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Task deleted successfully')),
+      Utils.flushbarErrorMessage(
+        'Task deleted successfully',
+        context,
       );
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
