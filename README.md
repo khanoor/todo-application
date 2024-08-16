@@ -12,11 +12,19 @@ This is a Flutter application that uses Provider for state management, Firebase 
 - **Local Storage**: Use sqflite to handle local storage for offline access and caching.
 
 # Installation
-1. Clone the repository:
+1. **Clone the repository:**
    git clone https://github.com/khanoor/todo-application.git
-2. Install dependencies:
+   
+3.** Install dependencies:**
    ```flutter pub get```
-3. Set up Firebase:
+   
+4.** Set up Firebase:**
    - Follow the instructions to set up Firebase for both iOS and Android as described in the [Firebase documentation](https://firebase.google.com/docs/flutter/setup?platform=android).
    - Add your google-services.json (for Android) and GoogleService-Info.plist (for iOS) to the respective directories.
+  
+5. **Set up sqflite:**
+   - Ensure you have the sqflite package added to your ```pubspec.yaml```
+
+6. **Run the app:**
+   - ```flutter run```
 
