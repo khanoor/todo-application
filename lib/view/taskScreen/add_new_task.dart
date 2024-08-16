@@ -170,6 +170,14 @@ class _AddNewTaskState extends State<AddNewTask> {
 
                       try {
                         await taskProvider.addTask(title, description, context);
+
+                        _titleController.clear();
+                        _descriptionController.clear();
+
+                        taskProvider.setDueDate(DateTime.now());
+                        taskProvider.setPriority('Low');
+                        taskProvider.setCompleted(false);
+
                         Navigator.of(context).pop();
                       } catch (e) {
                         Utils.toastMessage(e.toString());
